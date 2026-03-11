@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hortence Fashion Store</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background-color:#f4f4f4;
+}
+
+header{
+background:#111;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#f39c12;
+}
+
+.container{
+width:90%;
+margin:auto;
+padding:20px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.product{
+background:white;
+padding:15px;
+border-radius:5px;
+text-align:center;
+}
+
+.product img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:5px;
+}
+
+.price{
+color:#f39c12;
+font-weight:bold;
+}
+
+/* VIDEO SECTION */
+
+.video-section{
+background:white;
+padding:30px;
+margin:40px auto;
+width:90%;
+border-radius:8px;
+text-align:center;
+box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
+
+.video-section h2{
+margin-bottom:20px;
+}
+
+.video-section video{
+width:80%;
+max-width:800px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:#fff;
+padding:40px 20px 20px;
+margin-top:40px;
+}
+
+.footer-container{
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+max-width:1200px;
+margin:auto;
+}
+
+.footer-section{
+width:23%;
+min-width:200px;
+margin-bottom:20px;
+}
+
+.footer-section h3{
+margin-bottom:15px;
+font-size:16px;
+color:#f39c12;
+}
+
+.footer-section p,
+.footer-section a{
+font-size:14px;
+color:#ccc;
+text-decoration:none;
+display:block;
+margin-bottom:8px;
+}
+
+.footer-section a:hover{
+color:#f39c12;
+}
+
+.footer-bottom{
+text-align:center;
+border-top:1px solid #333;
+padding-top:15px;
+font-size:13px;
+color:#aaa;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Hortence Fashion Store</h1>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="about us.html">About Us</a>
+<a href="contact us.html">Contact Us</a>
+<a href="order.html">Order</a>
+</nav>
+
+</header>
+
+<div class="container">
+
+<h2>Trending Products</h2>
+
+<div class="products">
+
+<div class="product">
+<img src="dress.jpg">
+<h3>Dress</h3>
+<p class="price">$15</p>
+</div>
+
+<div class="product">
+<img src="her.jpg">
+<h3>Women clothing</h3>
+<p class="price">$35</p>
+</div>
+
+<div class="product">
+<img src="Sneakers.jpg">
+<h3>Sneakers</h3>
+<p class="price">$20</p>
+</div>
+
+<div class="product">
+<img src="shine.jpg">
+<h3>Classic Shoe</h3>
+<p class="price">$25</p>
+</div>
+
+<div class="product">
+<img src="heel1.jpg">
+<h3>Women Heels</h3>
+<p class="price">$35</p>
+</div>
+
+<div class="product">
+<img src="picture.jpg">
+<h3>Women Pants</h3>
+<p class="price">$20</p>
+</div>
+
+</div>
+</div>
+
+<!-- VIDEO SECTION -->
+
+<div class="video-section">
+
+<h2>Watch Our Fashion Collection</h2>
+
+<video controls>
+<source src="fshop.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+</div>
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-section">
+<h3>Hortence Fashion Store</h3>
+<p>Modern clothing & footwear for men and women.</p>
+<p>Style. Confidence. Quality.</p>
+</div>
+
+<div class="footer-section">
+<h3>Location</h3>
+<p>📍 Kigali City, Rwanda</p>
+<p>We deliver nationwide</p>
+<p>Mon - Sat: 8AM - 8PM</p>
+</div>
+
+<div class="footer-section">
+<h3>Quick Links</h3>
+<a href="index.html">Home</a>
+<a href="about us.html">About us</a>
+<a href="contact us.html">Contact us</a>
+<a href="order.html">Order</a>
+</div>
+
+<div class="footer-section">
+<h3>Follow Us</h3>
+<a href="#">Instagram</a>
+<a href="#">Facebook</a>
+<a href="#">Twitter</a>
+<a href="#">Email: chdhfashion1gmail.com</a>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+© 2026 Hortence Fashion Store | All Rights Reserved
+</div>
+
+</footer>
+
+</body>
+</html>
